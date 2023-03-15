@@ -4,9 +4,13 @@ If you ever find yourself in a situation where you need to decrypt the [NextAuth
 
 ## Installation
 
-```bash
-gem install next-auth-session-token-decoder
+Add this gem to your Gemfile:
+
+```ruby
+gem 'next-auth-session-token-decoder', '~> 0.1.0', require: 'next_auth_decoder'
 ```
+
+and run `bundle install`.
 
 ## Usage
 
